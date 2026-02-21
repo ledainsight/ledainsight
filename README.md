@@ -1,3 +1,23 @@
+# LedAInsight (Leda Services)
+
+**Leda Services — Operational Clarity for Growing Organizations**  
+Live: `https://ledainsight.vercel.app`
+
+LedAInsight is the public website for Leda Services. It provides a clean, fast, responsive marketing experience to communicate services, how we work, and how potential clients can get in touch.
+
+---
+
+##  Quick Start (Local Development)
+
+> This repo is deployed on Vercel. Most Vercel sites are Node-based (Next.js/React/Vite).  
+> **Use the scripts that exist in `package.json`** as the source of truth.
+
+###  Clone & install
+```bash
+git clone https://github.com/ledainsight/ledainsight.git
+cd ledainsight
+npm install
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

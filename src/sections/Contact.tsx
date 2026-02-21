@@ -62,7 +62,7 @@ const Contact = () => {
           <p className="text-sm text-gray-400 mb-8">
             Not ready for a call yet?{' '}
             <a
-              href="mailto:ledainsight@gmail.com?subject=Request: Operations Checklist"
+              href="mailto:hello@Ledainsight@gmail.com?subject=Request%3A%20Operations%20Checklist%20Request&body=Hi%20Leda%20Team%2C%0A%0AI%20came%20across%20your%20website%20and%20would%20like%20to%20request%20the%20free%20Operations%20Checklist%20to%20help%20streamline%20my%20business%20operations.%0A%0AHere%20are%20my%20details%3A%0A%0A•%20Business%20type%3A%20%0A%0AI%20look%20forward%20to%20receiving%20the%20checklist%20and%20learning%20more%20about%20how%20Leda%20can%20help.%0A%0ABest%20regards%2C"
               className="text-teal-400 hover:text-teal-300 transition-colors underline"
             >
               Request the free Operations Checklist
