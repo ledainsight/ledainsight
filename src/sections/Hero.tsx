@@ -33,7 +33,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://tally.so/r/dW6kgA"
+                href="https://tally.so/r/68ddXJ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-stone-900 text-white text-base font-medium rounded-full transition-all duration-200 hover:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2 text-center"

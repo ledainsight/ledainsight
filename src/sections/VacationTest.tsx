@@ -43,7 +43,7 @@ const VacationTest = () => {
         <div className="space-y-6">
           <p className="text-xl font-medium text-stone-900">These aren&apos;t people problems. They&apos;re structure problems.</p>
           <a
-            href="https://tally.so/r/dW6kgA"
+            href="https://tally.so/r/68ddXJ"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-stone-900 text-white text-base font-medium rounded-full transition-all duration-200 hover:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2"
