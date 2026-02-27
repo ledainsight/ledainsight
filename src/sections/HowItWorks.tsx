@@ -42,7 +42,7 @@ const HowItWorks = () => {
             id="how-it-works-heading"
             className="font-serif text-3xl sm:text-4xl lg:text-5xl text-stone-900 mb-6"
           >
-          From Chaos to Clarity: The 8-Week Transformation
+          From Chaos to Clarity: structured
           </h2>
         </div>
 
