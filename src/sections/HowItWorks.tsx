@@ -1,29 +1,31 @@
-import { Search, PenTool, Settings, HeartHandshake } from 'lucide-react';
-
 const steps = [
   {
-    icon: Search,
+    number: '01',
     title: 'Diagnostic',
-    description:
-      'We map how your organization currently operates and find exactly where clarity breaks down.',
+    timeframe: 'Week 1',
+    action: 'Map how work moves, find where you become the bottleneck',
+    outcome: "Stop guessing what's broken; know precisely what to fix",
   },
   {
-    icon: PenTool,
+    number: '02',
     title: 'Design',
-    description:
-      'We design a system built around how you actually work. Not a template. Not a guess.',
+    timeframe: 'Week 2',
+    action: 'Architect your operating system—who owns what, how decisions get made',
+    outcome: 'Blueprint for a business that runs without your daily involvement',
   },
   {
-    icon: Settings,
-    title: 'Build and Integrate',
-    description:
-      'We build it and integrate it into your operations until it holds on its own.',
+    number: '03',
+    title: 'Build & Integrate',
+    timeframe: 'Weeks 3-4',
+    action: 'Document core processes, build workflow automation, train team',
+    outcome: 'Team operates from systems, not your inbox',
   },
   {
-    icon: HeartHandshake,
+    number: '04',
     title: 'Partnership',
-    description:
-      'We stay. Refining and keeping your operations clear as you grow.',
+    timeframe: 'Ongoing',
+    action: 'Refine systems as you grow, catch bottlenecks before they break',
+    outcome: 'Sustainable growth without founder burnout',
   },
 ];
 
@@ -31,72 +33,41 @@ const HowItWorks = () => {
   return (
     <section
       id="how-it-works"
-      className="relative py-20 md:py-28"
+      className="py-24 px-4 sm:px-6 lg:px-8 bg-stone-50"
       aria-labelledby="how-it-works-heading"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image */}
-          <div className="hidden lg:block">
-            <div className="relative bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg aspect-square flex items-center justify-center">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 rounded-full bg-teal-200/50 animate-pulse" />
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2
+            id="how-it-works-heading"
+            className="font-serif text-3xl sm:text-4xl lg:text-5xl text-stone-900 mb-6"
+          >
+          From Chaos to Clarity: The 8-Week Transformation
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {steps.map((step, index) => (
+            <div key={index} className="flex flex-col">
+              <div className="text-amber-700 font-serif text-4xl mb-4">{step.number}</div>
+              <h3 className="font-serif text-2xl text-stone-900 mb-2">{step.title}</h3>
+              <div className="text-xs font-semibold tracking-wider uppercase text-stone-500 mb-4">
+                {step.timeframe}
               </div>
-              <Settings
-                size={120}
-                className="text-teal-600 relative z-10"
-                strokeWidth={1}
-                aria-hidden="true"
-              />
+              <div className="space-y-4">
+                <div>
+                  <div className="text-xs font-bold text-stone-400 uppercase mb-1">Action</div>
+                  <p className="text-stone-700 text-sm leading-relaxed">{step.action}</p>
+                </div>
+                <div>
+                  <div className="text-xs font-bold text-stone-400 uppercase mb-1">Outcome</div>
+                  <p className="text-stone-900 font-medium text-sm leading-relaxed">
+                    {step.outcome}
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-
-          {/* Text Content */}
-          <div>
-            <p className="section-label">How It Works</p>
-            <h2
-              id="how-it-works-heading"
-              className="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink mb-6"
-            >
-              Simple, Structured.
-            </h2>
-            <p className="text-base md:text-lg text-ink-light leading-relaxed mb-10">
-              Our engagements follow a traceable path from the very first
-              conversation. You always know where we are, what comes next, and
-              what to expect.
-            </p>
-
-            <div className="space-y-8">
-              {steps.map((step, index) => {
-                const Icon = step.icon;
-                return (
-                  <article
-                    key={index}
-                    className="flex gap-4"
-                    aria-labelledby={`step-title-${index}`}
-                  >
-                    <div
-                      className="flex-shrink-0 w-12 h-12 rounded-full bg-teal-50 flex items-center justify-center"
-                      aria-hidden="true"
-                    >
-                      <Icon size={24} className="text-teal-600" />
-                    </div>
-                    <div>
-                      <h3
-                        id={`step-title-${index}`}
-                        className="font-serif text-xl text-ink mb-2"
-                      >
-                        {step.title}
-                      </h3>
-                      <p className="text-sm md:text-base text-ink-light leading-relaxed">
-                        {step.description}
-                      </p>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

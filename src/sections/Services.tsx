@@ -1,97 +1,94 @@
-const services = [
+const offerings = [
   {
-    title: 'Operational Diagnostic',
+    title: 'Diagnostic Sprint',
     description:
-      'We find exactly where things are breaking and why, so you stop guessing and start fixing the right things.',
+      "We map how work actually moves through your business, identify where you're the bottleneck, and give you a prioritized action plan for the next 90 days.",
+    listHeading: 'What you receive:',
+    bullets: [
+      'Current state assessment',
+      '3 priority fixes ranked by impact',
+      '90-day implementation roadmap',
+    ],
+    investment: 'INVESTMENT: ₦400,000 - ₦600,000',
+    note: 'Final scope confirmed after discovery call',
+    cta: 'Book Diagnostic Call',
   },
   {
-    title: 'Workflow Automation',
+    title: 'System Build',
     description:
-      'We remove the manual repetitive work slowing down your processes so focus can be on what actually moves things onward.',
+      'We build the operational infrastructure your team needs to work without constant input from you.',
+    listHeading: 'What we build together:',
+    bullets: [
+      'Documented processes for recurring work',
+      'Workflow tools and automation',
+      'Team accountability structure',
+      'Training for your people',
+      '3 months of implementation support',
+    ],
+    investment: 'INVESTMENT: ₦800K - ₦1.5M NGN',
+    note: 'Based on team size and scope',
+    cta: 'Discuss Your Build',
   },
   {
-    title: 'Team Accountability',
+    title: 'Operations Partnership',
     description:
-      'We build the structure that tells everyone what they own, what is expected, and how progress gets tracked.',
-  },
-  {
-    title: 'Communication Flow',
-    description:
-      'We build the delivery and processes your clients experience: consistent, simple.',
-  },
-  {
-    title: 'End-to-End System Design',
-    description:
-      'We connect all the tools your organization runs on into one coherent system so nothing operates in isolation.',
-  },
-  {
-    title: 'Operations Retainer',
-    description:
-      'We stay with you — maintaining, improving, and evolving your operations as your organization grows and changes.',
+      "Ongoing operational support as your business evolves. We refine what's working, fix what's broken, and design new processes as you grow.",
+    listHeading: "What's included:",
+    bullets: [
+      'Monthly system check-ins',
+      'Process improvements as needed',
+      'Priority access for urgent issues',
+      'Quarterly strategic planning',
+    ],
+    investment: 'INVESTMENT: ₦400,000 - ₦700,000/month',
+    note: '3-month minimum commitment',
+    cta: 'Apply for Partnership',
   },
 ];
 
 const Services = () => {
   return (
-    <section
-      id="services"
-      className="relative py-20 md:py-28 bg-off"
-      aria-labelledby="services-heading"
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="max-w-3xl mb-16">
-          <p className="section-label">What We Do</p>
-          <h2
-            id="services-heading"
-            className="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink mb-6"
-          >
-            Helping operations improve with clarity.
+    <section id="services" className="py-24 px-4 sm:px-6 lg:px-8 bg-white" aria-labelledby="services-heading">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 id="services-heading" className="font-serif text-4xl lg:text-5xl text-stone-900 mb-6">
+            Three Ways to Work with LEDA
           </h2>
-          <p className="text-base md:text-lg text-ink-light leading-relaxed">
-            We design and build the internal systems your organization actually
-            runs on. How work gets assigned. How it gets tracked. How it gets
-            delivered. How you communicate and how your clients experience you.
-          </p>
-          <p className="text-base md:text-lg text-ink-light leading-relaxed mt-4">
-            We come in, build what is missing, and stay as the operational
-            partner that keeps everything running as you grow.
-          </p>
-          <p className="text-base md:text-lg text-ink leading-relaxed mt-6 font-medium">
-            The result is an organization that holds its own — with or without
-            you in every detail.
-          </p>
         </div>
 
-        {/* Services Grid */}
-        <div className="mb-16">
-          <p className="section-label mb-8">How We Help</p>
-          <p className="text-lg md:text-xl text-ink-mid mb-10 max-w-3xl">
-            Every service Leda offers builds toward one thing — an organization
-            that runs with clarity.
-          </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+          {offerings.map((offering) => (
+            <article key={offering.title} className="flex flex-col p-8 rounded-2xl border border-stone-100 bg-off">
+              <h3 className="font-serif text-3xl text-stone-900 mb-4">{offering.title}</h3>
+              <p className="text-stone-700 leading-relaxed mb-5">{offering.description}</p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service, index) => (
-              <article
-                key={index}
-                className="service-card"
-                tabIndex={0}
-                aria-labelledby={`service-title-${index}`}
+              <p className="text-sm font-semibold text-amber-700 uppercase tracking-wider mb-3">{offering.listHeading}</p>
+              <ul className="space-y-2 text-stone-700 text-sm mb-6 list-disc list-inside">
+                {offering.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
+
+              <div className="mt-auto space-y-2 mb-6">
+                <p className="text-xs font-semibold text-stone-700">{offering.investment}</p>
+                <p className="text-xs text-stone-500">{offering.note}</p>
+              </div>
+
+              <a
+                href="https://calendly.com/bankolebukunmiprecious/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 bg-stone-900 text-white hover:bg-stone-800"
               >
-                <h3
-                  id={`service-title-${index}`}
-                  className="font-serif text-xl text-ink mb-3"
-                >
-                  {service.title}
-                </h3>
-                <div className="w-12 h-px bg-border mb-4" aria-hidden="true" />
-                <p className="text-sm md:text-base text-ink-light leading-relaxed">
-                  {service.description}
-                </p>
-              </article>
-            ))}
-          </div>
+                {offering.cta}
+              </a>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-12 border-t border-stone-200 pt-8 text-center space-y-2">
+          <p className="text-stone-700">Leda works with businesses across Nigeria and internationally.</p>
+          <p className="text-stone-600 text-sm">International clients: Pricing available in USD/EUR/GBP upon request.</p>
         </div>
       </div>
     </section>

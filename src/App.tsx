@@ -11,6 +11,7 @@ import WhoWeWorkWith from './sections/WhoWeWorkWith';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import BackgroundBubbles from './components/BackgroundBubbles';
+import VacationTest from './sections/VacationTest';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       {/* Main Content */}
       <main id="main-content" className="relative z-10">
         <Hero />
+        <VacationTest />
         <ProblemChecklist />
         <About />
         <Services />
