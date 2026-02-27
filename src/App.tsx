@@ -1,7 +1,5 @@
 import Navigation from './sections/Navigation';
 import Hero from './sections/Hero';
-import ProblemChecklist from './sections/ProblemChecklist';
-import About from './sections/About';
 import Services from './sections/Services';
 import FounderQuote from './sections/FounderQuote';
 import HowItWorks from './sections/HowItWorks';
@@ -31,11 +29,9 @@ function App() {
       <main id="main-content" className="relative z-10">
         <Hero />
         <VacationTest />
-        <ProblemChecklist />
-        <About />
+        <HowItWorks />
         <Services />
         <FounderQuote />
-        <HowItWorks />
         <CaseStudies />
         <ProblemPatterns />
         <WhoWeWorkWith />
