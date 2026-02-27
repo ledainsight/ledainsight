@@ -18,7 +18,7 @@ const VacationTest = () => {
     <section id="vacation-test" className="py-24 px-4 sm:px-6 lg:px-8 bg-off" aria-labelledby="vacation-test-heading">
       <div className="max-w-5xl mx-auto text-center">
         <h2 id="vacation-test-heading" className="font-serif text-4xl lg:text-5xl text-stone-900 mb-6">
-          The Real Test of Your Business
+          The Real Test of Your Operation
         </h2>
         <p className="text-xl text-stone-600 mb-12">
           Most founders think they&apos;re building a company. They&apos;re actually building a job that owns them.

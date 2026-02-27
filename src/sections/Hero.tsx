@@ -23,12 +23,12 @@ const Hero = () => {
               id="hero-heading"
               className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-stone-900 leading-tight mb-6"
             >
-              Can your business{' '}
-              <span className="text-amber-700">survive</span> without you for 2 weeks?
+              Can your operation{' '}
+              <span className="text-amber-700">survive</span>  without you being in every detail?
             </h1>
 
             <p className="text-lg md:text-xl text-stone-600 leading-relaxed mb-8 max-w-xl">
-              LEDA builds the operational system that lets founders step back—without everything falling apart. We extract what's in your head, structure it, and hand your team a playbook they can actually run.
+             LEDA builds the operational systems you need to scale. We extract what's in your head, structure it, and build infrastructure that works.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

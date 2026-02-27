@@ -16,13 +16,13 @@ const offerings = [
   {
     title: 'System Build',
     description:
-      'We build the operational infrastructure your team needs to work without constant input from you.',
+      'We build the operational infrastructure you need—whether you’re preparing for your first hire or managing an existing team.',
     listHeading: 'What we build together:',
     bullets: [
       'Documented processes for recurring work',
       'Workflow tools and automation',
       'Team accountability structure',
-      'Training for your people',
+      'Implementation support (and training if you have a team)',
       '3 months of implementation support',
     ],
     investment: 'INVESTMENT: ₦800K - ₦1.5M NGN',
@@ -32,15 +32,15 @@ const offerings = [
   {
     title: 'Operations Partnership',
     description:
-      "Ongoing operational support as your business evolves. We refine what's working, fix what's broken, and design new processes as you grow.",
+      "Ongoing operational support as you grow. We refine what's working, fix what's broken, and design new processes as you scale.",
     listHeading: "What's included:",
     bullets: [
       'Monthly system check-ins',
       'Process improvements as needed',
-      'Priority access for urgent issues',
+      'Priority support for urgent issues',
       'Quarterly strategic planning',
     ],
-    investment: 'INVESTMENT: ₦400,000 - ₦700,000/month',
+    investment: 'INVESTMENT: ₦500,000 - ₦700,000/month',
     note: '3-month minimum commitment',
     cta: 'Apply for Partnership',
   },
