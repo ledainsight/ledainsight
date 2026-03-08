@@ -47,7 +47,7 @@ const CaseStudies = () => {
           {testimonials.map((testimonial) => (
             <article key={testimonial.author} className="case-study-card p-6 md:p-8 flex flex-col">
               <p className="text-stone-700 leading-relaxed mb-6">“{testimonial.quote}”</p>
-              <p className="font-semibold text-stone-900">— {testimonial.author}</p>
+              <p className="font-semibold text-stone-900"> {testimonial.author}</p>
               <p className="text-sm text-stone-500 mb-4">{testimonial.meta}</p>
               <p className="text-sm font-semibold text-teal-700">Result: {testimonial.result}</p>
             </article>

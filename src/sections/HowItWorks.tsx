@@ -10,7 +10,7 @@ const steps = [
     number: '02',
     title: 'Design',
     timeframe: 'Week 2',
-    action: 'Architect your operating system—who owns what, how decisions get made',
+    action: 'Architect your operating system, who owns what, how decisions get made',
     outcome: 'Blueprint for a business that runs without your daily involvement',
   },
   {

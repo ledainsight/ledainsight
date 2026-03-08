@@ -27,7 +27,7 @@ const VacationTest = () => {
         <div className="bg-white p-8 md:p-12 rounded-2xl mb-16 text-left border border-stone-100">
           <p className="text-lg md:text-xl text-stone-800 leading-relaxed italic">
             Schedule a 2-week vacation starting tomorrow. No laptop. No &quot;just checking in.&quot; If your stomach just dropped,
-            you don&apos;t have a business—you have a bottleneck.
+            you don&apos;t have a business, you have a bottleneck.
           </p>
         </div>
 

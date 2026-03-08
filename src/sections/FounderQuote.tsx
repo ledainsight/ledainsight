@@ -18,7 +18,7 @@ const FounderQuote = () => {
 
         <blockquote className="text-center border-l-4 border-teal-400 pl-6 md:pl-8 mb-12">
           <p className="font-serif text-3xl md:text-4xl lg:text-5xl text-white italic leading-relaxed">
-            “Every environment I have worked in has taught me the same thing — when the structure is right,
+            “Every environment I have worked in has taught me the same thing, when the structure is right,
             everything else finds its place.”
           </p>
         </blockquote>
