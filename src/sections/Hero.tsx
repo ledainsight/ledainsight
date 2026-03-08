@@ -24,7 +24,7 @@ const Hero = () => {
               className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-stone-900 leading-tight mb-6"
             >
               Can your operation{' '}
-              <span className="text-amber-700">survive</span>  without you being in every detail?
+              <span className="text-teal-700">survive</span>  without you being in every detail?
             </h1>
 
             <p className="text-lg md:text-xl text-stone-600 leading-relaxed mb-8 max-w-xl">
@@ -36,13 +36,13 @@ const Hero = () => {
                 href="https://tally.so/r/68ddXJ"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 bg-stone-900 text-white text-base font-medium rounded-full transition-all duration-200 hover:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2 text-center"
+                className="inline-flex items-center justify-center px-8 py-4 bg-stone-900 text-white text-base font-medium rounded-full transition-all duration-200 hover:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-teal-700 focus:ring-offset-2 text-center"
               >
                 Take the 2-Minute Diagnostic
               </a>
               <a
                 href="#how-it-works"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-stone-900 text-base font-medium rounded-full border border-stone-200 transition-all duration-200 hover:bg-stone-50 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2 text-center"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-stone-900 text-base font-medium rounded-full border border-stone-200 transition-all duration-200 hover:bg-stone-50 focus:outline-none focus:ring-2 focus:ring-teal-700 focus:ring-offset-2 text-center"
               >
                 See How It Works
               </a>

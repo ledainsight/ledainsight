@@ -25,8 +25,8 @@ const offerings = [
       'Implementation support (and training if you have a team)',
       '3 months of implementation support',
     ],
-    investment: 'INVESTMENT: ₦800K - ₦1.5M NGN',
-    note: 'Based on team size and scope',
+    investment: 'INVESTMENT:  From ₦800k NGN',
+    note: 'Final investment confirmed after discovery call',
     cta: 'Discuss Your Build',
   },
   {
@@ -60,9 +60,7 @@ const Services = () => {
           {offerings.map((offering) => (
             <article key={offering.title} className="flex flex-col p-8 rounded-2xl border border-stone-100 bg-off">
               <h3 className="font-serif text-3xl text-stone-900 mb-4">{offering.title}</h3>
-              <p className="text-stone-700 leading-relaxed mb-5">{offering.description}</p>
-
-              <p className="text-sm font-semibold text-amber-700 uppercase tracking-wider mb-3">{offering.listHeading}</p>
+              <p className="text-sm font-semibold text-teal-700 uppercase tracking-wider mb-3">{offering.listHeading}</p>
               <ul className="space-y-2 text-stone-700 text-sm mb-6 list-disc list-inside">
                 {offering.bullets.map((bullet) => (
                   <li key={bullet}>{bullet}</li>

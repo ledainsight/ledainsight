@@ -46,7 +46,7 @@ const VacationTest = () => {
             href="https://tally.so/r/68ddXJ"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-stone-900 text-white text-base font-medium rounded-full transition-all duration-200 hover:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-stone-900 text-white text-base font-medium rounded-full transition-all duration-200 hover:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-teal-700 focus:ring-offset-2"
           >
             Take the Diagnostic to Find Your Risk Level
           </a>

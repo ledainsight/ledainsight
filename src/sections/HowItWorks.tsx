@@ -49,7 +49,7 @@ const HowItWorks = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col">
-              <div className="text-amber-700 font-serif text-4xl mb-4">{step.number}</div>
+              <div className="text-teal-700 font-serif text-4xl mb-4">{step.number}</div>
               <h3 className="font-serif text-2xl text-stone-900 mb-2">{step.title}</h3>
               <div className="text-xs font-semibold tracking-wider uppercase text-stone-500 mb-4">
                 {step.timeframe}

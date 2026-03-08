@@ -20,6 +20,13 @@ const testimonials = [
     meta: 'Remote • 8-person team',
     result: 'Structure before burnout',
   },
+  {
+    quote:
+      'We were managing users data manually, tracking contributions on spreadsheets, and coordinating volunteers through WhatsApp. Everything was scattered. Leda assessed our operational needs, selected the right management platform, implemented the complete system, migrated our data, trained our staff, and documented all workflows. Administrative work that took 20+ hours weekly now takes less than 5. The team operates the system independently.',
+    author: 'CEO, NGO',
+    meta: 'Abuja, Nigeria •',
+    result: '15 hours/week saved through implementation',
+  },
 ];
 
 const CaseStudies = () => {
