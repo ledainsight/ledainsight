@@ -167,7 +167,6 @@
   /* Quote Section */
   .quote-section {
     @apply relative;
-    background: linear-gradient(135deg, #111827 0%, #374151 100%);
   }
   
   /* Image Lazy Loading Placeholder */

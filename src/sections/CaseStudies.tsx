@@ -43,7 +43,7 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial) => (
             <article key={testimonial.author} className="case-study-card p-6 md:p-8 flex flex-col">
               <p className="text-stone-700 leading-relaxed mb-6">“{testimonial.quote}”</p>

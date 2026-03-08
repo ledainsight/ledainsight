@@ -1,6 +1,16 @@
 const FounderQuote = () => {
   return (
-    <section className="quote-section py-24 px-4 sm:px-6 lg:px-8" aria-labelledby="founder-quote-heading">
+    <section
+      className="quote-section py-24 px-4 sm:px-6 lg:px-8"
+      aria-labelledby="founder-quote-heading"
+      style={{
+        backgroundImage:
+          "linear-gradient(135deg, rgba(17, 24, 39, 0.9) 0%, rgba(55, 65, 81, 0.78) 45%, rgba(6, 95, 70, 0.64) 100%), url('/images/FounderQuoteBG.jpeg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="max-w-5xl mx-auto">
         <h2 id="founder-quote-heading" className="sr-only">
           Founder note
